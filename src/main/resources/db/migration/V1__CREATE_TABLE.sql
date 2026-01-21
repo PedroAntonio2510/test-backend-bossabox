@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS tools (
-    id SERIAL PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     title VARCHAR(100) NOT NULL,
     link VARCHAR(255),
     description VARCHAR(255)
